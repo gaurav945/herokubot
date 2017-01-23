@@ -4,5 +4,5 @@ gunicorn==19.6.0
 psycopg2==2.6.1
 whitenoise==2.0.6
 apscheduler==2.1.2
-requests==2.12.5
 pushbullet.py==0.10.0
+requests[security]
