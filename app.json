@@ -1,0 +1,8 @@
+{
+  "name": "Running a Python Bot",
+  "description": "A Python Bot.",
+  "image": "heroku/python",
+  "repository": "https://github.com/gaurav945/herokubot",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}
