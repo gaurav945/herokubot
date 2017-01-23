@@ -35,7 +35,7 @@ def tick():
 
 if __name__ == '__main__':
 	scheduler = Scheduler(standalone=True)
-	scheduler.add_interval_job(tick, seconds=10)
+	scheduler.add_interval_job(tick, seconds=1800)
 	# print('Press Ctrl+C to exit')
 	try:
 		scheduler.start()
